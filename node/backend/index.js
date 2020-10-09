@@ -2,6 +2,7 @@ const assert = require('assert');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const express = require('express');
+const helmet = require('helmet');
 const logger = require('morgan');
 const mongo = require('mongodb').MongoClient;
 const path = require('path');
@@ -18,10 +19,11 @@ const queries = require(queriesPath);
 const app = express();
 app.set('port', process.env.PORT || 8080);
 
-app.use(cors());
-app.use(logger('short'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
+app.use(cors());
+app.use(logger('short'));
+app.use(helmet());
 
 app.use('/', reactHome);
 app.use('/db', dbConnection); 
