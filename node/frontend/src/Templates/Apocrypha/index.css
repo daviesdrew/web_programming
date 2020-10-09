@@ -1,0 +1,86 @@
+.p-output {
+	font-size: 10px;
+	/*
+    padding-left: 5%;
+    padding-top: 5%;
+    */
+}
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 2;
+}
+
+.overlay__content {
+	width: 90%;
+	height: 90%;
+	top: 5%;
+	left: 5%;
+	position: absolute;
+}
+
+.overlay__control {
+	position: absolute;
+	top: 3%;
+	right: 5%;
+	cursor: pointer;
+	z-index: 1;
+	padding: 40px;
+}
+
+.leftright {
+	right: 0%;
+	height: 8px;
+	width: 50px;
+	background-color: red;
+	position: absolute;
+	transform: rotate(45deg);
+	transition: all .3s ease-in;
+}
+
+.rightleft {
+	right: 0%;
+	height: 8px;
+	width: 50px;
+	background-color: red;
+	position: absolute;
+	transform: rotate(-45deg);
+	transition: all .3s ease-in;
+}
+
+.overlay__control label {
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: all .3s ease-in;
+	cursor: pointer;
+	/*opacity: 0%; */
+}
+
+.close {
+	right: -2%;
+	margin: 22px 0 0 0;
+	position: absolute;
+}
+
+.overlay__control:hover .leftright {
+	background-color: black;
+	transform: rotate(-45deg);
+}
+
+.overlay__control:hover .rightleft {
+	background-color: black;
+	transform: rotate(45deg);
+}
+
+.overlay__control:hover label {
+	/*opacity: 0%; */
+}

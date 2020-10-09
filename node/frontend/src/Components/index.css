@@ -1,0 +1,135 @@
+.doc-header {
+  background: #282c34;
+  padding: 10px;
+  color: white;
+}
+
+.doc-header__controls {
+  float: right;
+  min-width: 132px;
+}
+
+.doc-header__controls--close {
+  border: 1px solid black;
+  border-radius: 3px;
+  border-style: none;
+  background: #484CAA;
+  color: white;
+  cursor: pointer;
+  height: 100%;
+  padding: 5px 10px;
+  width: 75px;
+}
+
+.doc-header__content {
+	display: block;
+}
+
+.doc-header__text__line {
+	font-size: 1.3em;
+	margin: 5px 0;
+}
+.doc-header__content_list__title {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.doc-header__content-list {
+	margin-left: 5px;
+}
+
+.doc-header__content-list__item {
+	font-size: 1.2em;
+	color: #bbb;
+	cursor: pointer;
+}
+
+.doc-header__content-list__item:hover {
+	color: #fff;
+}
+
+
+/* Data table related */
+.data-table {
+  width: 100%;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+  display: table;
+}
+
+.data-table__row {
+  width: 100%;
+  display: table-row;
+  margin: 0;
+
+}
+
+.data-cell--label {
+  padding: 5px;
+  display: table-cell;
+  width: 10%;
+  font-weight: bold;
+  background: #111;
+}
+
+.data-cell {
+  display: table-cell;
+  width: 80%;
+  padding: 5px;
+}
+
+.data-cell--highlight {
+  display:table-cell;
+  width: 80%;
+  padding: 5px;
+  color: #33CC33;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #33CC33;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.citation {
+
+}
+
+.citation-link {
+  font-style: bold;
+  cursor: pointer;
+}
+
+.citation-link:hover {
+  color: #F11111;
+}
+
+/* POP UP related */
+
+.popup {  
+  position: absolute;  
+  width: 500px;  
+  height: 500px;  
+  top: 0;  
+  left: 0;  
+  right: 0;  
+  bottom: 0;  
+  margin: auto;  
+  background-color: rgba(0,0,0, 0.5);  
+}  
+
+.popup_inner {  
+  position: absolute;  
+  left: 5%;  
+  right: 5%;  
+  top: 5%;  
+  bottom: 5%;  
+  margin: auto;  
+  padding: 20px;
+  border-radius: 20px;  
+  background: black;  
+}
+
+

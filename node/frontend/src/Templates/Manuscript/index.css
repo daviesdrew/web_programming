@@ -1,0 +1,54 @@
+.manuscript-parts {
+  
+}
+
+.manuscript-parts__part {
+  padding: 5px 0 0 5px;
+  background: #333;
+}
+
+.manuscript-parts__part__index {
+  font-size: 1em;
+}
+
+.manuscript__apocryphon {
+  margin: 0 0 0 10px;
+  background: #222;
+}
+
+.manuscript__apocryphon__header {
+  background: #111;
+  padding: 5px;
+}
+
+.manuscript__apocryphon__header__index {
+  font-size: 0.9em;
+}
+
+.manuscript__apocryphon__header__title {
+  font-size: 1.4em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.manuscript__apocryphon__heading {
+  padding: 5px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.manuscript__apocryphon__section {
+  margin-left: 5px;
+  background: #333;
+}
+
+.manuscript__apocryphon__section__heading {
+  font-size: 1em;
+  background: #111;
+  padding: 5px;
+}
+
+.manuscript__apocryphon__section:nth-child(even) {
+  
+}
+

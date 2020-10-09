@@ -1,0 +1,85 @@
+.about-container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    font-family: "Cambria";
+    overflow-y: scroll;
+}
+
+.about-container--left, .about-container--right {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 2%;
+}
+
+.about-container--left {
+    flex: 40%;
+}
+
+.about-container--right {
+    flex: 50%;
+}
+
+.about-header--left, .about-header--right {
+    display: block;
+    font-size: 1.1em;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.about-image--left img {
+    -webkit-box-shadow: 10px 11px 14px 6px rgba(28, 28, 28, 1);
+    -moz-box-shadow: 10px 11px 14px 6px rgba(28, 28, 28, 1);
+    border: 1px solid #222;
+    border-radius: 5px;
+    box-shadow: 10px 11px 14px 6px rgba(28, 28, 28, 1);
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+    width: 100%;
+}
+
+.about-footer--left {
+    font-size: 0.9em;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.about-description--right-top, .about-description--right-bottom {
+    font-size: 1.3em;
+    margin-top: 20px;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px -0.5px 0 #000, 0.5px, 0.5px 0 #000;
+}
+
+.about-construction-stage--right {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.about-title--right {
+    font-size: 3.5em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about-footer--right {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+.about-footer--right-text {
+    font-size: 1.1em;
+}
+
+.about-footer--right-logo {
+    height: 50px;
+    margin-left: 20px;
+    width: 40px;
+}

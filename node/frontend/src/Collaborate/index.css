@@ -1,0 +1,11 @@
+.collaborate-container {
+	display: flex;
+	flex: 1;
+	overflow-y: scroll;
+}
+
+.collaborate-message {
+	font-size: 1.5em;
+	margin: auto 20%;
+	text-align: center;
+}

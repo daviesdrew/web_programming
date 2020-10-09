@@ -1,0 +1,15 @@
+.search-container {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	background: #282c34;
+	color: white;
+	overflow: hidden;
+}
+
+.search-container__body {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	overflow-y: hidden;
+}

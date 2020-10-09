@@ -1,0 +1,153 @@
+/* Common CSS classes used by all components in BROWSE and SEARCH */
+
+/* Document List Related -- Search and Browse -- */
+/*
+.doc-container {
+  display: flex;
+  flex: row;
+}
+
+.list-panel {
+  display: flex;
+  flex: 25%;
+  flex-direction: column;
+  min-width: 475px;
+  overflow-y: hidden;
+}
+
+.list-panel--body {
+  overflow-y: scroll;
+}
+
+.list-panel--header {
+  background-color: #373d48;
+  border-bottom: 1px solid black;
+  padding: 5px 10px;
+}
+
+.list-panel--header-title {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.list-panel--sort-controls {
+  float: right;
+}
+
+.list-panel--sort-button, .list-panel--sort-button--active {
+  background-color: inherit;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1em;
+  padding-left: 10px;
+  z-index: 2;
+  display: inline-block;
+}
+
+.list-panel--sort-button {
+  text-decoration: underline;
+}
+
+.list-panel--sort-button--active {
+  font-weight: bold;
+}
+
+.list-panel--sort-button:hover {
+  color: #CCC;
+}
+
+.list-panel--item, .list-panel--item-expanded {
+  border-bottom: 1px solid #131313;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.list-panel--item-expanded {
+  background-color: #1e2127;
+}
+
+.list-panel--item:hover {
+  background-color: #24272e;
+  cursor: pointer;
+}
+
+.list-panel--item-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  overflow-wrap: normal;
+}
+
+.list-panel--item-text {
+  font-size: 0.9em;
+  overflow-wrap: normal;
+}
+
+.list-panel--body button {
+  border-radius: 3px;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 5px 10px;
+  width: 75px;
+}
+
+.list-panel--body button:hover {
+  opacity: 0.8;
+}
+
+.list-panel--expand-button {
+  background: #4CAF50;
+}
+
+.list-panel--collapse-button {
+  background: #484CAA;
+}
+*/
+/* Document Detail Structure */
+/*
+.doc-detail-panel {
+  flex: 75%;
+  background: #373d48;
+  border-left: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.doc-detail-panel__heading {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.doc-detail-panel__body {
+  display: block;
+  height: 100%;
+  overflow-y: scroll;
+}
+*/
+
+/* for MS or Biblio contents */
+/*
+.doc-detail-panel__content-list {
+  display: block;
+}
+
+.doc-detail-panel__content-list__item {
+  color: #CCC;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.doc-detail-panel__content-list__item:hover {
+  color: #FFF;
+  background: #333;
+}
+
+.doc-detail-panel__details {
+  padding:5px 5px 5px 15px;
+}
+*/

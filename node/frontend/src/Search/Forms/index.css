@@ -1,0 +1,280 @@
+.search-container__search-panel {
+	flex: 17%;
+	min-width: 245px;
+	overflow-y: scroll;
+	padding: 0px 15px;
+	text-align: center;
+}
+
+.search-container__field-options {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.search-container__field-options__field {
+	padding: 5px;
+	border-radius: 2px;
+	font-size: 0.7em;
+	background: #555;
+	margin: 2px;
+
+}
+
+.search-container__field-options__field:hover {
+	padding: 5px;
+	border-radius: 2px;
+	font-size: 0.7em;
+	background: #777;
+	margin: 2px;
+	cursor:pointer;
+	
+}
+
+.search-container__search-panel--collapsed {
+	flex-basis: 5%;
+	flex-shrink: 1;
+	cursor: w-resize;
+	text-align: center;
+	margin: 10px 0px;
+	padding: 1px;
+	height: 5%;
+	background: #700000;
+	border: 1px solid #400000;
+	border-radius: 10px;
+	transition: all 0.4s ease 0s;
+}
+
+.search-container__search-panel--collapsed:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	font-weight: 200;
+	opacity: 0.8;
+
+  }
+  
+  @keyframes shake {
+	10%, 90% {
+	  transform: translate3d(-1px, 0, 0);
+	}
+  
+	20%, 80% {
+	  transform: translate3d(2px, 0, 0);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-4px, 0, 0);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(4px, 0, 0);
+	}
+  }
+
+.formField label {
+	color: white;
+ 	font-family: Helvetica, Arial, sans-serif; 
+ 	text-transform: none;
+ 	font-size: 10px;
+ 	letter-spacing: 1px;
+ 	cursor: pointer;
+}
+
+.formField label>input, .formField label>select {
+	display: inline-block;
+	border: 1px solid #222;
+	border-radius: 6px;
+	margin-left: 1%;
+	padding: 5px;
+	width: 60%;
+}
+
+.formField {
+	text-align: left;
+	display: block;
+	padding: 5px 0px;
+	width: 100%;
+	font-size: 11px;
+}
+
+.formField--editing {
+	text-align: center;
+	background: #444;
+}
+
+.formField-label {
+	font-size: 12px;
+	width: 25%;
+	display: inline-block;
+}
+
+.formField>input {
+	font-size: 18px;
+	width: 70%;
+}
+
+.formField>select {
+	font-size: 18px;
+	width: 75%;
+}
+
+.formField__button {
+	font-size: 12px;
+	display: inline-block;
+	padding: 5px 5px;
+	width: 5%;
+	border-radius: 2px;
+	cursor:pointer;
+}
+
+.formField__button:hover {
+	background: #666;
+}
+
+.cancel {
+	width: 15%;
+}
+
+.confirm {
+	width: 15%;
+	background: #800;
+}
+
+.search-button {
+	background-color: #4CAF50;
+	border: 1px solid #222;
+	color: white;
+	border-radius: 5px;
+	font-size: 1em;
+	margin: 10px 0px;
+	padding: 10px;
+	width: 100%;
+}
+
+.search-button:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.search-field {
+	margin-top: 10px;
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.search-field__text {
+	display: flex;
+	width: 100%;
+}
+
+.search-field__label {
+	flex: 10%;
+	font-size: 0.9em;
+}
+
+.tagged-input-field {
+	display: flex;
+	background: white;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+	flex-wrap: wrap;
+	padding: 3px 3px;
+	flex: 80%;
+}
+
+.tagged-input-field input, .tagged-input-field input:focus {
+  border: none;
+  width: 100%;
+  outline: none;
+  font-size: 1em;
+}
+
+.tagged-input-field__list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.tagged-input-field__list li {
+  align-items: center;
+  background: #85A3BF;
+  border-radius: 2px;
+  color: white;
+  display: flex;
+  font-weight: 300;
+  list-style: none;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  padding: 4px 8px;
+}
+
+.tagged-input-field__list li button {
+  align-items: center;
+  appearance: none;
+  background: #333333;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  height: 15px;
+  font-size: 12px;
+  justify-content: center;
+  line-height: 0;
+  margin-left: 8px;
+  transform: rotate(45deg);
+  width: 15px;
+}
+
+.tagged-input-field__list li.tagged-input {
+  background: none;
+  flex-grow: 1;
+  padding: 0;
+}
+
+.search-field__select {
+	flex: 80%;
+}
+
+.search-field__edit-button {
+	flex: 10%;
+	cursor: pointer;
+}
+
+.search-field__edit-button:hover {
+	background: #666;
+}
+
+.field-connective {
+	display: block;
+	text-align: right;
+	font-size: 0.8em;
+	color: #aaa;
+	padding: 3px;
+}
+
+.field-connective__button {
+	cursor:pointer;
+	font-style: italic;
+	border-radius: 2px;
+	padding:2px;
+	
+}
+
+.field-connective__button--active {
+	cursor:pointer;
+	border-radius: 2px;
+	padding:2px;
+	color: #fff;
+	background: #55a6f1;
+}
+
+.field-connective__button:hover {
+	color: #fff;
+}

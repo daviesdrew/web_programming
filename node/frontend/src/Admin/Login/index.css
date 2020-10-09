@@ -1,0 +1,74 @@
+.admin-container {
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.admin-form {
+	background-color: #373d48;
+	border: 1px solid #222;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 35px auto;
+	padding: 40px 50px;
+	min-width: 304px;
+	width: 304px;
+}
+
+.admin-form-title {
+	font-size: 1.7em;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.admin-form-error {
+	font-size: 0.8em;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.admin-form input[type=text], .admin-form input[type=password], .admin-form textarea {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: inherit;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	padding: 12px;
+	resize: vertical;
+	width: 100%;
+}
+
+.admin-form textarea {
+	height: 150px;
+}
+
+.admin-form button {
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	cursor: pointer;
+	font-size: 1.1em;
+	margin-top: 10px;
+	padding: 15px 20px;
+	width: 100%;
+}
+
+.admin-form button:hover {
+	opacity: 0.8;
+}
+
+.admin-form button[disabled] {
+	background-color: #777;
+}
+
+.admin-form button[disabled]:hover {
+	cursor: inherit;
+	opacity: 1;
+}
+
+.recaptcha-container {
+	margin: 10px auto;
+	width: 304px;
+}
